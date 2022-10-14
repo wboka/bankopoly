@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply p-2;
+  }
+
+  html, body {
+    font-size: 16px;
+    font-family: Cabin, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  h1 {
+    @apply text-3xl;
+  }
+
+  button, [type="button"], [type="reset"] {
+    @apply w-full py-1 rounded-full bg-gray-500 text-white font-bold text-3xl;
+  }
+
+  .icon {
+    @apply -m-1 w-10 h-10 mx-auto;
+  }
+
+  .banking-unit {
+    @apply w-full;
+  }
+}
