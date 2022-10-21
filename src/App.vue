@@ -181,12 +181,6 @@ export default {
       this.amount = "-";
       this.unit = "";
     },
-    onLoaded() {
-      alert("loaded");
-    },
-    onDecode(result) {
-      alert(JSON.stringify(result, null, 2));
-    },
     passGo() {
       this.amount = "2";
       this.unit = "M";
